@@ -75,7 +75,9 @@ async def Doodstream_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
 
 
-'''
+'''async def get_ptitle(url):
+    if ('bit' in url ):
+      url = urlopen(url).geturl()
      
       
     html_text = requests.get(url).text
@@ -128,7 +130,7 @@ async def Doodstream_up(link):
     #bot.delete_messages(con)
     v_url = 'https://dood.ws/d/' + v_id
     s = Shortener(api_key=BITLY_KEY)
-    v_url = s.bitly.short(v_url)
+    
     return (v_url)
 
 
