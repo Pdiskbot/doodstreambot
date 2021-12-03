@@ -43,7 +43,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @mrpunisher or for more join @Hornyworld22**")
+        "**please contact me on @mrpunisher52 or for more join @Hornyworld22**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
