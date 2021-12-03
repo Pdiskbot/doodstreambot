@@ -28,9 +28,7 @@
          "BITLY_KEY": {
             "description": "Bitly API See Readme for further details",
             "value": ""
-         },
-          
-           
+    
         },
         "CHANNEL": {
             "description": "Enter your telegram channel Username (must change and without @)",
