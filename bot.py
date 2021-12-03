@@ -75,10 +75,8 @@ async def Doodstream_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
 
 
-'''async def get_ptitle(url):
-    if ('bit' in url ):
-      url = urlopen(url).geturl()
-      
+'''
+     
       
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, 'html.parser')
