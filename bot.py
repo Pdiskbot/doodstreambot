@@ -31,19 +31,19 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**I am a Doodstream post convertor bot and i am able to upload all direct links to Doodstream,just send me link or full post...**")
+        "**I am a Doodstream post convertor bot and i am able to upload all direct links to Doodstream,just send me link or full post... \n Join my Channel @Hornyworld22**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @jack_sparow119 For more help-**")
+        "**If you send post which had Doodstream Links, texts & images... Than I'll convert & replace all Doodstream links with your Doodstream links \nMessage me @mrpunisher52 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @jack_sparow119**")
+        "**please contact me on @mrpunisher or for more join @Hornyworld22**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
@@ -180,6 +180,8 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Droplink tutorial - https://t.me/hornyworld22/13       
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
 
