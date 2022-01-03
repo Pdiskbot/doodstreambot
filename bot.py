@@ -173,7 +173,7 @@ async def new_Doodstream_url(urls):
 
 async def remove_username(new_List):
     for i in new_List:
-        if('@' in i or 't.me' in i or or 'dropgalaxy.in' in i or 'streamta.pe' in i or '🎥Dropgalaxy' in i or 'telegra.ph' in i or '🎥Streamtape' in i):
+        if('@' in i or 't.me' in i or 'dropgalaxy.in' in i or 'streamta.pe' in i or '🎥Dropgalaxy' in i or 'telegra.ph' in i or '🎥Streamtape' in i):
             new_List.remove(i)
     return new_List
 
